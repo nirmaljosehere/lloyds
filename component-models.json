@@ -1,5 +1,15 @@
 [
   {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "boolean",
+        "name": "breadcrumbs",
+        "label": "Show Breadcrumbs"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
@@ -176,6 +186,25 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "summary",
+        "value": "",
+        "label": "Summary"
       },
       {
         "component": "richtext",
