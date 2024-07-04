@@ -1,6 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #006a4d;
+  color:white;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -255,6 +256,7 @@ header nav#nav .nav-sections ul > li > ul > li {
     padding: 1em;
     background-color: var(--light-color);
     white-space: initial;
+    color: #006a4d;
   }
 
   header nav#nav .nav-sections .default-content-wrapper > ul > li > ul::before {

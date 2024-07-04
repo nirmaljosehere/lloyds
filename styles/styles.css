@@ -20,9 +20,9 @@
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: Lloyds Jack Regular;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+  --fixed-font-family: "Lloyds Jack Light", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -38,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* header */
-  --nav-height: 64px;
+  --nav-height: 100px;
   --breadcrumbs-height: 35px;
   --header-height: var(--nav-height);
   --breadcrumbs-font-size: 14px;
