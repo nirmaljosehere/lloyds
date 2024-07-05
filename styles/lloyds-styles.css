@@ -552,6 +552,11 @@ main .section.highlight {
   background-color: var(--background-color);
 }
 
+main .section.highlight-green {
+  background-color: #006a4d;
+  color:white;
+}
+
 /* custom section styling */
 @media (width >= 900px) {
   main .section.hero-container:first-of-type {
